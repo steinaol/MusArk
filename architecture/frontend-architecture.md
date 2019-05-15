@@ -33,7 +33,7 @@ We use bootstrap for styling the overall page. We have a custom stylesheeet that
 
 A component triggers a callback when you click a button. This callback is mapped to the component from the container, which in turn maps this callback to a call on an action creator in a store that in turn calls .next(...) on a subject. This subject is merged into the store reducer which will emit a new version of the store. When the observable emits the new data, the container will re render the view.
 
-![Blank_Diagram_-_Page_1__4_](/images/Blank_Diagram_-_Page_1__4_.png)
+![Blank_Diagram_-_Page_1__4_](../images/Blank_Diagram_-_Page_1__4_.png)
 
 ## Modules
 
